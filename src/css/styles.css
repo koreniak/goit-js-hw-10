@@ -12,6 +12,36 @@ body {
   line-height: 1.5;
 }
 
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto
+}
+
+.country-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.country-item {
+  display: flex;
+  gap: 10px;
+}
+
+.country-title {
+  display: flex;
+  gap: 15px;
+}
+
+.country-prop {
+  font-weight: 600;
+}
+
 #search-box {
   font: inherit;
   padding: 8px;
