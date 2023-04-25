@@ -14,12 +14,19 @@ body {
 
 ul {
   list-style: none;
+  padding: 0px;
+}
+
+h1 {
+  margin: 0px;
+  text-align: center;
 }
 
 img {
   display: block;
   max-width: 100%;
-  height: auto
+  height: auto;
+  border: 1px solid black;
 }
 
 .country-list {
@@ -31,11 +38,17 @@ img {
 .country-item {
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 
-.country-title {
+.country-name {
+  font-weight: 600;
+}
+
+.country-head {
   display: flex;
   gap: 15px;
+  align-items: center;
 }
 
 .country-prop {
